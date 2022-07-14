@@ -150,7 +150,7 @@ public class Servicio extends Service{
                 handler.postDelayed(runnable, delay);
                 //si esta desactivado se muestra un msj, se detiene el servicio y se cierra el activity si esta en primer plano
                 // pushea
-                //commit
+                //commit w
                 //commit
                 if(!isLocationEnabled(Servicio.this)){
                     Toast.makeText(Servicio.this, "GPS Apagado, Debe encenderlo", Toast.LENGTH_LONG).show();
