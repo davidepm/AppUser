@@ -145,6 +145,7 @@ public class Servicio extends Service{
     public int onStartCommand(Intent intent, int flags, int startId) {
         //handler que se ejecuta cada 5 seg para saber si el gps se ha desactivado
         handler.postDelayed(runnable = new Runnable() {
+            ///asfkjabsk
             public void run() {
                 handler.postDelayed(runnable, delay);
                 //si esta desactivado se muestra un msj, se detiene el servicio y se cierra el activity si esta en primer plano
